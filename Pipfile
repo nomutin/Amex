@@ -1,0 +1,22 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+lightgbm = "*"
+numpy = "*"
+pandas = "*"
+matplotlib = "*"
+scipy = "*"
+autopep8 = "*"
+isort = "*"
+flake8 = "*"
+pyarrow = "*"
+fastparquet = "*"
+optuna = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.9"
